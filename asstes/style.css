@@ -38,3 +38,35 @@
     display: flex;
     justify-content: space-between;
 }
+.navbar{
+    width: 980px;
+    margin: 50px auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.logo{
+    height: 34px;
+    margin-top: 4px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+}
+.story{
+    text-align: center;
+}
+.story-container{
+    width: 980px;
+    margin: 50px auto;
+    display: flex;
+    gap: 5%;
+}
+.user-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 5px solid hwb(337 32% 18%);
+}
