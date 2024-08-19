@@ -7,6 +7,9 @@
     width:980px ;
     margin: 50px auto;
     height: 100vh;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 .feeds{
     width: 500px;
@@ -25,9 +28,11 @@
     border-radius: 50%;
 }
 .feed{
+    width: 100%;
     border: 2px solid lightgray;
     padding: 10px;
     border-radius: 10px;
+    margin-top: 30px;
 }
 .feed-image{
     width: 100%;
@@ -40,13 +45,13 @@
 }
 .navbar{
     width: 980px;
-    margin: 50px auto;
+    margin: 20px auto;
     display: flex;
     text-align: center;
     justify-content: space-between;
 }
 .logo{
-    height: 34px;
+    height: 45px;
     margin-top: 4px;
 }
 .btn{
@@ -56,17 +61,24 @@
     height: 50px;
 }
 .story{
+    margin: 0;
     text-align: center;
 }
 .story-container{
     width: 980px;
-    margin: 50px auto;
+    margin: 5px auto;
     display: flex;
-    gap: 5%;
+    gap: 6%;
 }
 .user-img{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    border: 5px solid hwb(337 32% 18%);
+    border: 3px solid hwb(337 32% 18%);
+}
+.sidepar-container{
+    margin: 0;
+    width: 330px;
+    margin-top: 45px;
+    background-color: rgb(32, 85, 85);
 }
